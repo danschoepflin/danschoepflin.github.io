@@ -2,6 +2,8 @@ html { -webkit-text-size-adjust: 100%; }
 
 h2 { font-family: "Inria Sans", sans-serif; font-weight: 300; }
 
+p { font-family: "Dosis", sans-serif; font-weight: 200; }
+
 h1 { font-size: 22pt; }
 
 h3 { font-size: 16pt; }
