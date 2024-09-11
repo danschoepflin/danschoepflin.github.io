@@ -1,3 +1,57 @@
 html { -webkit-text-size-adjust: 100%; }
 
 h2 { font-family: "Inria Sans", sans-serif; font-weight: 300; }
+
+h1 { font-size: 22pt; }
+
+h3 { font-size: 16pt; }
+
+body { font-family: 'Nunito', sans-serif; margin-top: 10px; color: #4d4733; }
+
+.container { margin: 0 auto; padding: 2.5em; }
+
+a { color: #e91e3b; text-decoration: none; }
+
+a:hover { color: #820000; }
+
+ul.person-list { list-style: none; padding: 0; margin: 0; text-align: center; }
+
+ul.person-list li.person { text-align: center; width: 175px; height: 300px; padding: 10px; display: inline-block; vertical-align: top; }
+
+ul.person-list li.person.small-height { height: 230px; }
+
+ul.person-list li.person img { width: 175px; height: 175px; object-fit: cover; }
+
+ul.person-list li.person .avatar-circle { width: 175px; height: 175px; background-color: #ddd; text-align: center; margin-bottom: 6px; }
+
+ul.person-list li.person .initials { position: relative; top: 62px; /* 25% of parent */ font-size: 50px; /* 50% of parent */ line-height: 50px; /* 50% of parent */ color: #fff; font-family: 'Zilla Slab', serif; font-weight: bold; }
+
+ul.person-list li.person ul.interests { font-size: 10pt; padding: 2pt 0 0 0; margin: 0; list-style: none; }
+
+ul.pub-list { list-style: none; padding: 0; margin: 0; }
+
+ul.pub-list li.pub { color: #706c5c; font-size: 11pt; padding-bottom: 1em; }
+
+ul.pub-list li.pub .title { color: #4d4733; font-family: 'Zilla Slab', serif; font-size: 13pt; }
+
+ul.pub-list li.pub .authors .rutgers { display: inline-block; line-height: 15px; border-bottom: 2px dotted #d3caab; }
+
+@media screen and (min-width: 940px) { .container { width: 800px; } ul.person-list { text-align: left; } }
+
+@media screen and (max-width: 940px) { .center-small-width { text-align: center; } }
+
+table.alt { color: #333; border-collapse: collapse; border-spacing: 100px; }
+
+table.alt td, table.alt th { border: 1px solid #CCC; height: 30px; }
+
+table.alt th { background: #f1f1f1; font-weight: bold; }
+
+table.alt tr:nth-child(even) td { background: #f1f1f1; }
+
+table.alt tr:nth-child(odd) td { background: #fefefe; }
+
+td { padding: 6px; }
+
+.date { font-size: 10pt; font-weight: bold; padding-right: 10px; color: #666; }
+
+/*# sourceMappingURL=styles.css.map */
