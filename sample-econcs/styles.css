@@ -26,7 +26,7 @@ ul.person-list li.person img { width: 175px; height: 175px; object-fit: cover; }
 
 ul.person-list li.person .avatar-circle { width: 175px; height: 175px; background-color: #ddd; text-align: center; margin-bottom: 6px; }
 
-ul.person-list li.person .initials { position: relative; top: 62px; /* 25% of parent */ font-size: 50px; /* 50% of parent */ line-height: 50px; /* 50% of parent */ color: #fff; font-family: 'Zilla Slab', serif; font-weight: bold; }
+ul.person-list li.person .initials { position: relative; top: 62px; /* 25% of parent */ font-size: 50px; /* 50% of parent */ line-height: 50px; /* 50% of parent */ color: #fff; font-family: 'Dosis', serif; font-weight: bold; }
 
 ul.person-list li.person ul.interests { font-size: 10pt; padding: 2pt 0 0 0; margin: 0; list-style: none; }
 
@@ -34,7 +34,7 @@ ul.pub-list { list-style: none; padding: 0; margin: 0; }
 
 ul.pub-list li.pub { color: #706c5c; font-size: 11pt; padding-bottom: 1em; }
 
-ul.pub-list li.pub .title { color: #4d4733; font-family: 'Zilla Slab', serif; font-size: 13pt; }
+ul.pub-list li.pub .title { color: #4d4733; font-family: 'Dosis', serif; font-size: 13pt; }
 
 ul.pub-list li.pub .authors .rutgers { display: inline-block; line-height: 15px; border-bottom: 2px dotted #d3caab; }
 
